@@ -28,5 +28,5 @@ jobs:
         run: npm install
 
       # Run tests
-      - name: Run tests
-        run: npm test
+      - name: RunTests
+        run: PORT=3000 npm test
