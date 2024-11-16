@@ -1,0 +1,16 @@
+{
+  "name": "sample-nodejs-app",
+  "version": "1.0.0",
+  "description": "A simple hello world app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
